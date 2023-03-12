@@ -1,19 +1,46 @@
-body {
-	font-family: Arial, sans-serif;
-	background-color: #f2f2f2;
-	margin: 0;
-	padding: 0;
-}
-
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-}
-
+/* Selector to apply style(s) to at least one HTML tag */
 h1 {
-	margin: 0;
-	font-size: 36px;
+    text-align: center;
 }
 
-nav
+/* Create at least one class, apply it to at least two elements, and style it */
+.blue-background {
+    background-color: blue;
+    color: white;
+}
+
+/* Create at least one id, apply it to an element, and style it */
+#about {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Use <div> to create at least two sections of content on the page */
+main div {
+    margin-bottom: 20px;
+}
+
+/* Use <a> to link to another website */
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* Change at least two box model properties of any tag, class, or id */
+#portfolio li {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Include an image */
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* Correctly use a <meta> “description” tag to describe your site to search engines */
