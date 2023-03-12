@@ -1,46 +1,44 @@
-/* Selector to apply style(s) to at least one HTML tag */
+/* Apply style to h1 tag */
 h1 {
     text-align: center;
-}
-
-/* Create at least one class, apply it to at least two elements, and style it */
-.blue-background {
-    background-color: blue;
-    color: white;
-}
-
-/* Create at least one id, apply it to an element, and style it */
-#about {
-    background-color: lightgray;
-    padding: 20px;
-}
-
-/* Use <div> to create at least two sections of content on the page */
-main div {
-    margin-bottom: 20px;
-}
-
-/* Use <a> to link to another website */
-nav a {
-    color: black;
-    text-decoration: none;
-}
-
-nav a:hover {
     color: blue;
-}
-
-/* Change at least two box model properties of any tag, class, or id */
-#portfolio li {
+  }
+  
+  /* Create class 'section' and apply to two elements */
+  .section {
     border: 1px solid black;
     padding: 10px;
-}
-
-/* Include an image */
-img {
+    margin-bottom: 20px;
+  }
+  
+  /* Create id 'contact' and apply to one element */
+  #contact {
+    border: 2px dashed red;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  /* Change box model properties of ul tag */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Change box model properties of li tag */
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Change color of <a> tag when hovering over it */
+  a:hover {
+    color: red;
+  }
+  
+  /* Center an image */
+  img {
     display: block;
     margin: auto;
-    max-width: 100%;
-}
-
-/* Correctly use a <meta> “description” tag to describe your site to search engines */
+    width: 50%;
+  }
