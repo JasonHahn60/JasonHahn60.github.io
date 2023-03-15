@@ -1,42 +1,42 @@
-/* Apply style to h1 tag */
+
 h1 {
     text-align: center;
     color: blue;
   }
   
-  /* Create class 'section' and apply to two elements */
+
   .section {
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 20px;
   }
   
-  /* Create id 'contact' and apply to one element */
+
   #contact {
     border: 2px dashed red;
     padding: 15px;
     margin-top: 30px;
   }
   
-  /* Change box model properties of ul tag */
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  /* Change box model properties of li tag */
+
   li {
     display: inline;
     margin-right: 10px;
   }
   
-  /* Change color of <a> tag when hovering over it */
+
   a:hover {
     color: red;
   }
   
-  /* Center an image */
+
   img {
     display: block;
     margin: auto;
