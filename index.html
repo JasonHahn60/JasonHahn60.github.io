@@ -2,65 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="This is my personal website.">
-    <title>My Personal Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jason Hahn - Personal Website">
+    <title>Jason Hahn | Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     
-    <!-- Widget JavaScript bundle (Google RAG AI) -->
+    <!-- Google RAG AI Widget -->
     <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
   </head>
   <body>
     <header>
-      <h1>Welcome to My Personal Website!</h1>
+      <h1>Jason Hahn</h1>
+      <p>Software Engineer | AI Enthusiast | Car Enthusiast</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gaming">Gaming</a></li>
+          <li><a href="#cars">Cars</a></li>
+          <li><a href="#ai-search">AI Search</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     
-    <div class="section">
+    <section id="about">
       <h2>About Me</h2>
-      <p>Hi, my name is Jason and I'm a UT Austin graduate.</p>
-    </div>
-    
-    <div class="section">
+      <p>Hi, my name is Jason, and I'm a UT Austin graduate with a passion for software engineering, AI, and cars.</p>
+    </section>
+
+    <section id="gaming">
       <h2>Gaming</h2>
       <ul>
         <li><a href="https://www.youtube.com/watch?v=AB4DIpJTuIo" target="_blank">VALORANT</a></li>
         <li><a href="https://www.youtube.com/watch?v=Tymv-ZpSzm8&t=1s" target="_blank">CS:GO</a></li>
-        <li><a href="https://www.youtube.com/watch?v=7Z0qTvxQbTc" target="_blank">ShellShock live</a></li>
+        <li><a href="https://www.youtube.com/watch?v=7Z0qTvxQbTc" target="_blank">ShellShock Live</a></li>
       </ul>
-    </div>
-    
-    <div class="section">
-      <h2>Cars</h2>
-      <section id="image">
-        <h3>C8 Corvette</h3>
-        <img src="images/corvette.jpg" alt="C8 Corvette">
-      </section>
-      <section id="image">
-        <h3>F22 M240i</h3>
-        <img src="images/m240i.jpeg" alt="F22 M240i">
-      </section>
-    </div>
+    </section>
 
-    <!-- New Section for RAG Search Widget -->
-    <div class="section">
+    <section id="cars">
+      <h2>Cars</h2>
+      <div class="gallery">
+        <div class="car">
+          <h3>C8 Corvette</h3>
+          <img src="images/corvette.jpg" alt="C8 Corvette">
+        </div>
+        <div class="car">
+          <h3>F22 M240i</h3>
+          <img src="images/m240i.jpeg" alt="F22 M240i">
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-search">
       <h2>Search My AI Model</h2>
-      <!-- Input box to trigger the widget -->
       <input placeholder="Search here" id="searchWidgetTrigger" />
-      <!-- Google AI Search Widget -->
       <gen-search-widget
         configId="0c577534-f556-4636-934c-abc3974919c9"
         triggerId="searchWidgetTrigger">
       </gen-search-widget>
-    </div>
+    </section>
 
-    <div id="contact">
+    <section id="contact">
       <h2>Contact Me</h2>
-      <p>If you'd like to get in touch with me, you can email me at 
-        <a href="mailto:jason.hahn@utexas.edu">jason.hahn@utexas.edu</a>
-      </p>
-    </div>
+      <p>Email me at <a href="mailto:jason.hahn@utexas.edu">jason.hahn@utexas.edu</a></p>
+    </section>
 
     <footer>
-      <p>&copy; 2023 My Personal Website</p>
+      <p>&copy; 2024 Jason Hahn | All Rights Reserved</p>
     </footer>
   </body>
 </html>
