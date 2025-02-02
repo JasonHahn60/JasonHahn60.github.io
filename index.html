@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jason Hahn - Personal Website">
+    <meta name="description" content="Jason Hahn - Portfolio & Resume">
     <title>Jason Hahn | Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     
@@ -13,13 +13,16 @@
   <body>
     <header>
       <h1>Jason Hahn</h1>
-      <p>Software Engineer  |  Photographer  |  Car Enthusiast</p>
+      <p>Software Engineer | AI Enthusiast | Photographer | Car Enthusiast</p>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#gaming">Gaming</a></li>
-          <li><a href="#cars">Cars</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#ai-search">AI Search</a></li>
+          <li><a href="#photography">Photography</a></li>
+          <li><a href="#cars">Cars</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -27,43 +30,74 @@
     
     <section id="about">
       <h2>About Me</h2>
-      <p>Hi, my name is Jason, and I'm a UT Austin graduate with a passion for software engineering, AI, Photography and cars. 
-        This website will show you a little bit about me, what what I'm passionate about, as well as showcase some of my projects, and maybe some random hobbies!</p>
+      <p>Hi, my name is Jason, and I'm a UT Austin graduate with a passion for software engineering, AI, and photography. 
+        This website showcases my resume, experience, and projects, along with some of my personal interests.</p>
     </section>
 
-    <section id="gaming">
-      <h2>Gaming</h2>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=AB4DIpJTuIo" target="_blank">VALORANT</a></li>
-        <li><a href="https://www.youtube.com/watch?v=Tymv-ZpSzm8&t=1s" target="_blank">CS:GO</a></li>
-        <li><a href="https://www.youtube.com/watch?v=7Z0qTvxQbTc" target="_blank">ShellShock Live</a></li>
-      </ul>
-    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="resume-item">
+        <h3>Software Engineer (Contract)</h3>
+        <p><strong>Outlier AI</strong> | May 2024 - Present</p>
+        <p>• Developed and deployed AI-powered analytics tools using Python and Google Cloud.</p>
+        <p>• Designed and optimized real-time data pipelines for large-scale enterprise clients.</p>
+      </div>
 
-    <section id="cars">
-      <h2>Cars</h2>
-      <div class="gallery">
-        <div class="car">
-          <h3>C8 Corvette</h3>
-          <img src="images/corvette.jpg" alt="C8 Corvette">
-        </div>
-        <div class="car">
-          <h3>F22 M240i</h3>
-          <img src="images/m240i.jpeg" alt="F22 M240i">
-        </div>
+      <div class="resume-item">
+        <h3>Software Engineering Intern</h3>
+        <p><strong>John Deere</strong> | Aug 2023 - May 2024</p>
+        <p>• Built an indoor ranging navigation system using computer vision and ML.</p>
+        <p>• Implemented object tracking for real-time vehicle positioning.</p>
       </div>
     </section>
 
+    <section id="education">
+      <h2>Education</h2>
+      <div class="resume-item">
+        <h3>University of Texas at Austin</h3>
+        <p><strong>B.S. in Electrical and Computer Engineering</strong> | May 2024</p>
+        <p>• Relevant Coursework: Machine Learning, Computer Vision, Cloud Computing</p>
+        <p>• Qualcomm & Texas Instruments Scholarship Recipient</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python, Java, C++, SQL</li>
+        <li>Machine Learning, Computer Vision</li>
+        <li>Google Cloud, AWS</li>
+        <li>Data Science & AI Development</li>
+      </ul>
+    </section>
+
     <section id="ai-search">
-      <h2>Search My AI Model</h2>
+      <h2>AI Search Showcase</h2>
       <p>This AI-powered search model uses Retrieval-Augmented Generation (RAG) to find relevant information from texts. 
         It is currently showcasing its capabilities using two books: Life of Pi and A Thousand Splendid Suns. 
-        Try searching for key themes, characters, or events from these books!<p>
+        Try searching for key themes, characters, or events from these books!</p>
       <input placeholder="Search here" id="searchWidgetTrigger" />
       <gen-search-widget
         configId="0c577534-f556-4636-934c-abc3974919c9"
         triggerId="searchWidgetTrigger">
       </gen-search-widget>
+    </section>
+
+    <section id="photography">
+      <h2>Photography</h2>
+      <div class="gallery">
+        <img src="images/photo1.jpg" alt="Photography Sample 1">
+        <img src="images/photo2.jpg" alt="Photography Sample 2">
+        <img src="images/photo3.jpg" alt="Photography Sample 3">
+      </div>
+    </section>
+
+    <section id="cars">
+      <h2>Cars</h2>
+      <div class="gallery">
+        <img src="images/corvette.jpg" alt="C8 Corvette">
+        <img src="images/m240i.jpeg" alt="F22 M240i">
+      </div>
     </section>
 
     <section id="contact">
