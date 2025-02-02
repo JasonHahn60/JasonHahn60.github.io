@@ -24,26 +24,19 @@ header p {
     font-size: 1.2em;
 }
 
-/* Navigation */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    background: #0056b3;
-    padding: 10px;
+/* External Links */
+.external-links {
+    margin-top: 10px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+.external-links a {
     color: white;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-nav ul li a:hover {
+.external-links a:hover {
     text-decoration: underline;
 }
 
