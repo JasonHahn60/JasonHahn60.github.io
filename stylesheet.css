@@ -12,15 +12,16 @@ body {
 }
 
 /* Headers */
-h1, h2 {
+h1, h2, h3 {
     color: #ffffff; /* Pure white */
     font-weight: 600;
 }
 
+/* Make sure all h3 elements are the same size */
 h3 {
-    color: #ffffff; /* Pure white */
-    font-size: 1.1em; /* Match experience & education section */
+    font-size: 1.1em; /* Match education & experience sections */
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 /* General Text */
@@ -115,38 +116,34 @@ section {
 }
 
 /* Projects Section */
-/* Ensure project titles match experience & education sections */
+/* Make sure project titles match experience & education */
 #projects h3 {
-    color: #ffffff !important; /* Force white color */
-    font-size: 1.1em !important; /* Match experience & education */
+    font-size: 1.1em !important; /* Force match with other sections */
     font-weight: 600;
-    margin-bottom: 5px;
 }
 
-/* Remove underline and set project links to white */
+/* Project Titles: White, No Underline */
 #projects h3 a {
-    color: #ffffff !important; /* Force white color */
-    text-decoration: none !important; /* Remove underline */
-    font-weight: 600; /* Match experience titles */
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
-/* Ensure links don't change color or underline on hover */
 #projects h3 a:hover {
-    color: #f5f5f5; /* Slightly lighter on hover */
-    text-decoration: none !important; /* Prevent underlining */
+    color: #f5f5f5;
+    text-decoration: none !important;
 }
 
-/* Align project list properly */
+/* Remove bullet points */
 #projects ul {
     list-style-type: none; 
     padding-left: 0;
     text-align: left;
 }
 
-/* Adjust spacing in project list */
 #projects li {
-    margin-bottom: 10px; /* Reduce space between items */
+    margin-bottom: 8px; /* Reduce space between items */
     color: #b0b0b0; /* Softer white */
 }
 
