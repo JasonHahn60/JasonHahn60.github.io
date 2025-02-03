@@ -12,8 +12,14 @@ body {
 }
 
 /* Headers */
-h1, h2, h3 {
+h1, h2 {
     color: #ffffff; /* Pure white */
+    font-weight: 600;
+}
+
+h3 {
+    color: #ffffff; /* Pure white */
+    font-size: 1.1em; /* Match experience & education section */
     font-weight: 600;
 }
 
@@ -112,7 +118,7 @@ section {
 /* Ensure project titles match experience & education sections */
 #projects h3 {
     color: #ffffff !important; /* Force white color */
-    font-size: 1.3em; /* Match size with experience section */
+    font-size: 1.1em !important; /* Match experience & education */
     font-weight: 600;
     margin-bottom: 5px;
 }
