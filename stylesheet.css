@@ -112,31 +112,36 @@ section {
 /* Ensure project titles match experience & education sections */
 #projects h3 {
     color: #ffffff !important; /* Force white color */
-    font-size: 1.1em; /* Match size with experience section */
+    font-size: 1.3em; /* Match size with experience section */
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-#projects ul {
-    list-style-type: none; 
-    padding-left: 0; /* Align bullets properly */
-    text-align: left;
-}
-
-#projects li {
-    margin-bottom: 8px; /* Reduce space between items */
-    color: #b0b0b0; /* Softer white */
-}
-
-#projects a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
+/* Remove underline and set project links to white */
+#projects h3 a {
+    color: #ffffff !important; /* Force white color */
+    text-decoration: none !important; /* Remove underline */
+    font-weight: 600; /* Match experience titles */
     transition: color 0.3s ease;
 }
 
-#projects a:hover {
-    color: #f5f5f5;
+/* Ensure links don't change color or underline on hover */
+#projects h3 a:hover {
+    color: #f5f5f5; /* Slightly lighter on hover */
+    text-decoration: none !important; /* Prevent underlining */
+}
+
+/* Align project list properly */
+#projects ul {
+    list-style-type: none; 
+    padding-left: 0;
+    text-align: left;
+}
+
+/* Adjust spacing in project list */
+#projects li {
+    margin-bottom: 10px; /* Reduce space between items */
+    color: #b0b0b0; /* Softer white */
 }
 
 /* Contact */
