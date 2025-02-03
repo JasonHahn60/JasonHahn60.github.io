@@ -20,7 +20,7 @@ h1, h2, h3 {
 /* General Text */
 p, li, strong {
     color: #b0b0b0; /* Softer white for readability */
-    font-weight: 400; /* Slightly lighter weight */
+    font-weight: 400;
 }
 
 /* Header Section */
@@ -109,6 +109,13 @@ section {
 }
 
 /* Projects Section */
+#projects h3 {
+    color: #ffffff; /* Make project titles white like experience section */
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
 #projects ul {
     list-style-type: disc; /* Adds bullet points */
     padding-left: 20px; /* Align bullets properly */
@@ -116,8 +123,20 @@ section {
 }
 
 #projects li {
-    margin-bottom: 5px; /* Reduce space between items */
+    margin-bottom: 8px; /* Reduce space between items */
     color: #b0b0b0; /* Softer white */
+}
+
+/* Project Links (No Underline, Same Style as External Links) */
+#projects a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#projects a:hover {
+    color: #f5f5f5;
 }
 
 /* Contact */
