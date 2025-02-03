@@ -175,16 +175,17 @@ footer {
     font-size: 0.9em;
 }
 
-/* Photography link styling */
-.photography-link {
+/* Photography section link */
+#photography a {
     color: #b0b0b0; /* Default muted gray */
     font-weight: bold;
+    font-size: 1.1em; /* Slightly larger like email */
     text-decoration: none; /* No underline */
     transition: color 0.3s ease;
 }
 
-.photography-link:hover {
+#photography a:hover {
     color: #ffffff; /* Turns white on hover */
-    text-decoration: none; /* Ensures no underline */
+    text-decoration: none; /* No underline */
 }
 
