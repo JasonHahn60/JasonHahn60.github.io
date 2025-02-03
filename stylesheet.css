@@ -188,3 +188,28 @@ footer {
     text-decoration: none; /* No underline */
 }
 
+#certifications h2 {
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#certifications .resume-item {
+    text-align: left;
+    margin-bottom: 12px;
+    color: #b0b0b0;
+}
+
+#certifications a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+#certifications a:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
