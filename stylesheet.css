@@ -174,3 +174,17 @@ footer {
     margin-top: 10px;
     font-size: 0.9em;
 }
+
+/* Photography link styling */
+.photography-link {
+    color: #b0b0b0; /* Default muted gray */
+    font-weight: bold;
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease;
+}
+
+.photography-link:hover {
+    color: #ffffff; /* Turns white on hover */
+    text-decoration: none; /* Ensures no underline */
+}
+
