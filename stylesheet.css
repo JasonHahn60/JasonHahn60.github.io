@@ -117,8 +117,8 @@ section {
 }
 
 #projects ul {
-    list-style-type: disc; /* Adds bullet points */
-    padding-left: 20px; /* Align bullets properly */
+    list-style-type: none; /* Adds bullet points */
+    padding-left: 0; /* Align bullets properly */
     text-align: left;
 }
 
