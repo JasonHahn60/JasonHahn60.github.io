@@ -102,3 +102,10 @@ footer {
     margin-top: 10px;
     font-size: 0.9em;
 }
+
+/* Ensure consistent left-alignment */
+.project-item {
+    text-align: left;
+    padding: 5px 0;
+}
+
