@@ -163,7 +163,7 @@ section {
 
 #contact a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Footer */
