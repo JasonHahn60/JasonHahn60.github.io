@@ -109,3 +109,14 @@ footer {
     padding: 5px 0;
 }
 
+/* Projects Section - Left-aligned & Compact */
+#projects ul {
+    list-style-type: disc; /* Adds bullet points */
+    padding-left: 20px; /* Align bullets properly */
+    text-align: left;
+}
+
+#projects li {
+    margin-bottom: 5px; /* Reduce space between items */
+}
+
