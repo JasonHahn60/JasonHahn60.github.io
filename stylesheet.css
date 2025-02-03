@@ -109,15 +109,16 @@ section {
 }
 
 /* Projects Section */
+/* Ensure project titles match experience & education sections */
 #projects h3 {
-    color: #ffffff; /* Make project titles white like experience section */
-    font-size: 1.3em;
-    font-weight: bold;
+    color: #ffffff !important; /* Force white color */
+    font-size: 1.1em; /* Match size with experience section */
+    font-weight: 600;
     margin-bottom: 5px;
 }
 
 #projects ul {
-    list-style-type: none; /* Adds bullet points */
+    list-style-type: none; 
     padding-left: 0; /* Align bullets properly */
     text-align: left;
 }
