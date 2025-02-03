@@ -212,4 +212,11 @@ footer {
     transform: scale(1.03);
 }
 
+/* Ensure the badge is centered */
+#certifications div[data-share-badge-id] {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
 
