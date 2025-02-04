@@ -115,6 +115,20 @@ section {
     font-family: 'Quicksand', sans-serif;
 }
 
+#ai-search a {
+    color: #b0b0b0; /* Default muted gray */
+    font-weight: bold;
+    font-size: 1.1em; /* Slightly larger like other external links */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s ease;
+}
+
+#ai-search a:hover {
+    color: #ffffff; /* Turns white on hover */
+    text-decoration: none; /* No underline */
+}
+
+
 /* Projects Section */
 /* Make sure project titles match experience & education */
 #projects h3 {
